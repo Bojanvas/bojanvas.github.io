@@ -71,7 +71,7 @@ nav {
 #hire {
     text-align: center;
     margin: 40px auto;
-    width: 23%;
+    width: 25%;
     display: block;
     background-color: rgba(0, 0, 0, 0);
     height: 40px;
@@ -92,7 +92,7 @@ nav {
 
 #hire:hover {
     background-color: rgb(253, 205, 59);
-    width: 28%;
+    width: 30%;
 }
 
 #hire:hover p {
@@ -137,6 +137,10 @@ nav {
     font-size: 200%;
     opacity: 0.5;
 }
+.imgtxt i:hover {
+    color: lightblue;
+}
+
 
 .imgtxt a {
     text-align: center;
