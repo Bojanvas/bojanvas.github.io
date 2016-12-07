@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: font-awsome;
+}
+
+p {
+    font-family: font-awsome;
+    font-size: 170%;
+    line-height: 145%;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #444444;
+}
+
+#logo {
+    color: wheat;
+    font-weight: 500;
+    font-size: 200%;
+    margin-left: 50px;
+    font-style: italic;
+    font-family: font-awsome;
+    padding: 10px;
+}
+
+#menu {
+    display: none;
+}
+
+nav {
+    height: 69px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(25, 25, 25)!important;
+}
+
+.creative {
+    font-size: 80%;
+    color: rgb(242, 242, 242);
+    margin-left: 30px;
+}
+
+#logo i {
+    margin-right: 5px;
+}
+
+.nav li a {
+    color: #ffffff !important;
+    font-size: 145%;
+    margin-right: 25px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#hire {
+    text-align: center;
+    margin: 40px auto;
+    width: 20%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(253, 205, 59);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: all 1s ease-in-out;
+}
+
+#hire p {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin: 5px auto;
+}
+
+#hire:hover {
+    background-color: rgb(253, 205, 59);
+    width: 25%;
+}
+
+#hire:hover p {
+    color: rgb(25, 25, 25);
+}
+
+#do {
+    font-size: 120%;
+    text-align: center;
+    margin: 200px 0 5px 0;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+.background {
+    background: url(img/main2.jpg) fixed center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.imgtxt {
+    display: block;
+    position: relative;
+    top: 50%;
+}
+
+.imgtxt h2 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: font-awsome;
+    font-size: 340%;
+    opacity: 0.7;
+}
+
+.imgtxt i {
+    display: block;
+    color: white;
+    margin: 20px auto;
+    font-size: 200%;
+    opacity: 0.5;
+}
+
+.imgtxt a {
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none !important;
+}
+
+.me {
+    background: url('img/me4.png') center;
+    border-radius: 60%;
+    margin: 70px auto;
+    width: 100%;
+    height: 250px;
+}
+
+#aboutme div i {
+    display: block;
+    font-size: 800%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+#aboutme div i:hover {
+    color: cornflowerblue;
+}
+
+.abt {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+#skill {
+    background-color: rgb(242, 242, 242);
+}
+
+#skill span {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    font-size: 400%;
+}
+
+#skills {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.margin {
+    margin-bottom: 50px;
+}
+
+.moveimg {
+    background: url('img/move.jpg') fixed center no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    height: 400px;
+    display: block;
+}
+
+.moveimg p {
+    color: white;
+    float: left;
+    display: block;
+    width: 35%;
+    margin: 120px 0 0 120px;
+    font-size: 240%;
+}
+
+.web {
+    position: relative;
+    left: 70%;
+    top: 20%;
+    background: url('img/div1.png') center;
+    width: 250px;
+    height: 250px;
+}
+
+.work {
+    opacity: 0;
+    transform: translateX(180px);
+    transition: all 1s ease-in-out;
+}
+
+.box {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#responsive {
+    background: url('img/res.png') center;
+    display: block;
+    margin: 50px auto;
+    height: 400px;
+    width: 400px;
+}
+
+.work div h3 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.work {
+    border-bottom: 1px solid rgb(147, 164, 170);
+}
+
+#responsive2 {
+    background: url('img/google.png') center;
+    display: block;
+    margin: 50px auto;
+    height: 400px;
+    width: 400px;
+}
+
+#responsive3 {
+    background: url('img/all.png') center;
+    display: block;
+    margin: 50px auto;
+    height: 400px;
+    width: 400px;
+}
+
+#contact-form {
+    margin: 120px 70px 70px 70px;
+}
+
+.icontitle {
+    margin: 70px auto;
+    transition: color 1s ease-in-out;
+}
+
+#icon {
+    border-bottom: 1px solid rgb(147, 164, 170);
+}
+
+.icontxt {
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.icontitle:hover {
+    color: lightblue;
+}
+
+.icontitle h4 {
+    padding-top: 5px;
+}
+
+.icontitle h3 {
+    margin-top: -5px;
+}
+
+.icon i {
+    font-size: 500%;
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    height: 260px;
+    display: block;
+    background-color: rgb(25, 25, 25);
+    transition: opacity 2s ease-in-out;
+}
+
+.socialicon {
+    display: block;
+    text-align: center;
+}
+
+.socialicon i {
+    font-size: 300%;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0px 40px 0px;
+}
+
+.foottxt {
+    text-align: center;
+    font-size: 80%;
+    color: rgb(242, 242, 242);
+}
+
+.foottxt p {
+    color: rgb(242, 242, 242);
+}
+
+.socialicon i:hover {
+    color: wheat;
+}
+
+footer:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+    #menu {
+        display: block;
+        color: white;
+        float: right;
+        font-size: 165%;
+        margin: 20px 20px 0px 0px;
+    }
+    nav:hover .nav {
+        display: block;
+    }
+    .nav {
+        display: none;
+        border: 1px solid white;
+        background-color: black;
+    }
+    #logo {
+        font-size: 150%;
+        margin-left: 8px;
+    }
+    .web {
+        display: none;
+    }
+    #ptext {
+        text-align: center;
+        font-size: 180%;
+        width: 100%;
+        margin: 40px 5px 20px 5px;
+    }
+    #responsive {
+        width: 340px;
+    }
+    #responsive2 {
+        width: 340px;
+    }
+    #responsive3 {
+        width: 340px;
+    }
+    .foottxt {
+        font-size: 50%;
+    }
+    .foottxt h2 {
+        font-size: 260%;
+    }
+    .imgtxt h2 {
+        font-size: 240%;
+    }
+    #hire {
+        width: 55%;
+    }
+    #hire p {
+        font-size: 80%;
+        margin: 10px auto;
+    }
+    #hire:hover {
+        width: 55%;
+    }
+    #do {
+        margin: 70px 0 0 0;
+    }
+}
